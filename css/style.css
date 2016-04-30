@@ -5,11 +5,6 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-@media only screen and (max-width: 500px) {
-  .measthead-heading {
-    font-size: 3em;
-  }
-}
 .masthead-heading,
 .masthead-intro,
 .content-footer {
@@ -97,8 +92,27 @@ section > h1 {
 
 .content-footer {
   /* Layout Declarations */
-  margin-top: 5em;
-  padding: 4em 0;
+  max-width: 34em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  padding: 2em;
   /* Appearance Declrations */
   background-color: #9EBE93;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content-footer {
+    font-size: 3em;
+    padding: 5em 5em;
+  }
 }
