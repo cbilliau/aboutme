@@ -108,11 +108,13 @@ section > h1 {
   .masthead-heading {
     font-size: 3em;
   }
-}
-
-@media screen and (max-width: 500px) {
   .content-footer {
-    font-size: 3em;
+    font-size: 0.9em;
     padding: 5em 5em;
   }
+  .quote {
+    font-size: 0.85em;
+    padding: 2px;
+  }
+}
 }
